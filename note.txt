@@ -1,0 +1,12 @@
+python3 -m venv .venv (create virtual enviroment)
+source .venv/bin/activate (activate virtual enviroment) (.venv) will show up
+pip install requests python-dotenv Flask (install packages -> Flask is capitalized)
+pip list  (check all packages are installed)
+python3 -m pip install -U pip (upgrade pip)
+pip freeze > requirements.txt   (create requirements.txt -> package.json)
+
+pip install waitress  (waitress help serve web app in production)
+freeze > requirements.txt  (re-create requirements.txt to include waitress)
+
+static -> folder holds static file = no changing (img javascript css)
+templates -> folder store html files -> will insert some value from python in to those html files and use those as templates for webpage
